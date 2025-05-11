@@ -203,7 +203,7 @@ func (*Service) logBadStatus(_ context.Context,
 
 func (s *Service) addExtraHeaders(req *http.Request) {
 	for k, v := range s.extraHeaders {
-		req.Header.Add(k, v)
+		res.headers[k] = v;
 	}
 }
 
