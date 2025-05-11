@@ -1,4 +1,4 @@
-module github.com/attestantio/go-eth2-client
+module github.com/LukeHackett12/go-eth2-client
 
 go 1.21.0
 
